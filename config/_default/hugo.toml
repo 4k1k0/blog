@@ -22,5 +22,5 @@ paginate = 5
     lineNumbersInTable = false
     noClasses = true
     noHl = false
-    style = 'dracula'
+    style = 'gruvbox'
     tabWidth = 2
