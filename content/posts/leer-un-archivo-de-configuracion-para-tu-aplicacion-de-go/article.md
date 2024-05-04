@@ -1,7 +1,7 @@
 ---
 title: "Leer un archivo de configuración para tu aplicación de Go"
 date: 2022-06-18T02:12:45-06:00
-draft: true # Set 'false' to publish
+draft: false # Set 'false' to publish
 tableOfContents: false # Enable/disable Table of Contents
 description: ''
 categories:

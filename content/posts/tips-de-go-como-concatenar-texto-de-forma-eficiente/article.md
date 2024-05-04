@@ -1,7 +1,7 @@
 ---
 title: "Tips de Go: Cómo concatenar texto de forma eficiente"
 date: 2022-09-17T02:09:29-06:00
-draft: true # Set 'false' to publish
+draft: false # Set 'false' to publish
 tableOfContents: false # Enable/disable Table of Contents
 description: 'Solución más óptima para concatenar texto utilizando Go'
 categories:

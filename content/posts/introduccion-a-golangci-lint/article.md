@@ -1,7 +1,7 @@
 ---
 title: "Introduccion a Golangci Lint"
 date: 2022-11-27T03:28:01-06:00
-draft: true # Set 'false' to publish
+draft: false # Set 'false' to publish
 tableOfContents: false # Enable/disable Table of Contents
 description: 'Linter para lenguaje de programación Go'
 categories:

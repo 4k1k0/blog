@@ -1,7 +1,7 @@
 ---
 title: "Usar pruebas de caja negra para encontrar bugs en nuestro código con Go"
 date: 2021-11-29T02:15:54-06:00
-draft: true # Set 'false' to publish
+draft: false # Set 'false' to publish
 tableOfContents: false # Enable/disable Table of Contents
 description: 'Usar valores aleatorios en pruebas unitarias con Golang'
 categories:

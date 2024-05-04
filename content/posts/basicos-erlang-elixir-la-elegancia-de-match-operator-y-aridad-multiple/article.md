@@ -1,7 +1,7 @@
 ---
 title: "Básicos Erlang / Elixir: La elegancia de match operator y aridad múltiple"
 date: 2022-09-22T02:06:43-06:00
-draft: true # Set 'false' to publish
+draft: false # Set 'false' to publish
 tableOfContents: false # Enable/disable Table of Contents
 description: ''
 categories:
