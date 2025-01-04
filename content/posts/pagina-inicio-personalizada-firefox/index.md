@@ -9,7 +9,7 @@ tags:
 coverImage: "inicio-2014-08-20-00-13-12.png"
 ---
 
-Para personalizar Firefox existen varias opciones como temas, extensiones y quitar herramientas de la interfaz. Pero lo que vamos a hacer es crear una página de inicio y new-tab personalizada.<!--more-->
+Para personalizar Firefox existen varias opciones como temas, extensiones y quitar herramientas de la interfaz. Pero lo que vamos a hacer es crear una página de inicio y new-tab personalizada.
 
 Lo primero que tenemos que hacer crear nuestro HTML donde pondremos nuestros enlaces de interés e.g.
 

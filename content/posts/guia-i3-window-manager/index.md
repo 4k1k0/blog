@@ -12,7 +12,7 @@ tags:
 
 **Instalación**
 
-Dependiendo la distribución se podrá encontrar e instalar el paquete i3 desde los repositorios.<!--more-->
+Dependiendo la distribución se podrá encontrar e instalar el paquete i3 desde los repositorios.
 
 **Iniciar**
 

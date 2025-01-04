@@ -9,7 +9,7 @@ tags:
 coverImage: "2015-05-16-020339_1366x768_scrot.png"
 ---
 
-Encriptar información con GPG es mucho más simple de lo que parece. Lo primero que tendremos que hacer es asegurarnos de tener instalado el paquete en nuestra distribución GNU/Linux, en caso de no tenerlo lo podemos encontrar en los repositorios como **gnupg**.<!--more-->
+Encriptar información con GPG es mucho más simple de lo que parece. Lo primero que tendremos que hacer es asegurarnos de tener instalado el paquete en nuestra distribución GNU/Linux, en caso de no tenerlo lo podemos encontrar en los repositorios como **gnupg**.
 
 > \# apt-get install gnupg
 

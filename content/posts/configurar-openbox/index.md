@@ -10,7 +10,7 @@ tags:
 coverImage: "captura-de-pantalla-090914-151504.png"
 ---
 
-Al instalar Arch Linux con Openbox podrán notar que practicamente no tienen software en su equipo, no hay explorador para los archivos, ni navegador web, ni reproductor de música. Necesitarán varias herramientas para tener su sistema a punto. Estas son las herramientas que podrán utilizar:<!--more-->
+Al instalar Arch Linux con Openbox podrán notar que practicamente no tienen software en su equipo, no hay explorador para los archivos, ni navegador web, ni reproductor de música. Necesitarán varias herramientas para tener su sistema a punto. Estas son las herramientas que podrán utilizar:
 
 - Tint2: Un panel bastante sencillo que consume muy pocos recursor.
 - oblogout: Para apagar, reiniciar o suspender el equipo sin la terminal.
@@ -30,10 +30,10 @@ Tendremos que poner en el archivo autostart los programas que queremos que se in
 
 Las oraciones que comienzan con un **#** son comentarios.
 
-\[caption id="attachment\_68" align="alignnone" width="562"\][![Screenfetch](images/captura-de-pantalla-090914-151504.png)](https://moelinux.files.wordpress.com/2014/09/captura-de-pantalla-090914-151504.png) Screenfetch\[/caption\]
+[caption id="attachment_68" align="alignnone" width="562"][![Screenfetch](images/captura-de-pantalla-090914-151504.png)](https://moelinux.files.wordpress.com/2014/09/captura-de-pantalla-090914-151504.png) Screenfetch[/caption]
 
 Para comenzar a editar el menu de Openbox tendremos que fijarnos en el xml que es realmente sencillo, e.g.
 
-\[caption id="" align="alignnone" width="589"\]![Menu Openbox](images/KxEYihX.png) Menu Openbox\[/caption\]
+[caption id="" align="alignnone" width="589"]![Menu Openbox](images/KxEYihX.png) Menu Openbox\[/caption]
 
-Todo comienza dentro de **<menu id="root-menu" label="Openbox 3"></menu>** dentro de esto podremos nuestros programas, menus desplegables y separadores. Siguiendo la sintaxis de xml de abrir y cerrar etiquetas.
+Todo comienza dentro de `<menu id="root-menu" label="Openbox 3"></menu>` dentro de esto podremos nuestros programas, menus desplegables y separadores. Siguiendo la sintaxis de xml de abrir y cerrar etiquetas.
