@@ -8,9 +8,9 @@ tags:
 coverImage: "captura-de-pantalla-090914-160318.png"
 ---
 
-Se puede hacer un sencillo sitio web sin hacer uso de las etiquetas html o scripts, de hecho no se requiere tener absolutamente nada más que un html sin contenido dentro de `<body>` y una hoja de estilo. <!--more-->
+Se puede hacer un sencillo sitio web sin hacer uso de las etiquetas html o scripts, de hecho no se requiere tener absolutamente nada más que un html sin contenido dentro de `<body>` y una hoja de estilo. 
 
-Para esto tendremos que editar la etiqueta <body> con los atributos before y after. e.g.
+Para esto tendremos que editar la etiqueta `<body>` con los atributos before y after. e.g.
 
 ```css
 body{

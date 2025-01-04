@@ -14,7 +14,7 @@ coverImage: "screenshot-290415-221614.png"
 
 [![ncmpcpp](images/screenshot-290415-221614.png)](https://moelinux.files.wordpress.com/2015/04/screenshot-290415-221614.png) ncmpcpp
 
-Esto les servirá para instalar y configurar de forma local mpd (music player daemon) y ncmpcpp, el cual es un cliente de terminal para mpd.<!--more-->
+Esto les servirá para instalar y configurar de forma local mpd (music player daemon) y ncmpcpp, el cual es un cliente de terminal para mpd.
 
 Lo primero que tenemos que hacer es instalar los paquetes según su distribución, los cuales se pueden encontrar en los repositorios oficiales de Archlinux y Ubuntu, entre otros.
 

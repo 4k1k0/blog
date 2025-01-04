@@ -10,7 +10,7 @@ tags:
 coverImage: "screenshot-260515-214226.png"
 ---
 
-Yo soy una persona que acostumbra mover el touchpad de la laptop mientras escribe, esto me causa muchas molestias ya que puedo borrar texto accidentalmente -algo que me pasa muy seguido- o di click en algún lugar y ya no puedo escribir. Muchas laptops tienen algún botón o combinación de botones para desactivarlo, pero en algunos casos -como el mío- este botón no funciona correctamente. Para estos casos podemos utilizar un comando en la terminal.<!--more-->
+Yo soy una persona que acostumbra mover el touchpad de la laptop mientras escribe, esto me causa muchas molestias ya que puedo borrar texto accidentalmente -algo que me pasa muy seguido- o di click en algún lugar y ya no puedo escribir. Muchas laptops tienen algún botón o combinación de botones para desactivarlo, pero en algunos casos -como el mío- este botón no funciona correctamente. Para estos casos podemos utilizar un comando en la terminal.
 
 Escribimos:
 

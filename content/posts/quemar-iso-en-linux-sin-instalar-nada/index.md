@@ -8,7 +8,7 @@ tags:
   - "iso"
 ---
 
-Cuando uno quiere quemar una imagen iso en su sistema operativo Linux e.g. Debian; uno busca en Internet como hacerlo y encuentra post que dicen que tienes que instalar X o Y programa para hacer algo que puedes hacer desde la terminal sin instalar absolutamente nada porque ya viene instalado con tu sistema.<!--more-->
+Cuando uno quiere quemar una imagen iso en su sistema operativo Linux e.g. Debian; uno busca en Internet como hacerlo y encuentra post que dicen que tienes que instalar X o Y programa para hacer algo que puedes hacer desde la terminal sin instalar absolutamente nada porque ya viene instalado con tu sistema.
 
 Abriremos nuestra terminal y escribiremos
 

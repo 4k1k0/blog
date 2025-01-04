@@ -9,7 +9,7 @@ tags:
 coverImage: "captura-de-pantalla-200814-032135.png"
 ---
 
-Hace un tiempo tuve que hacer una especie de 'tombola' para seleccionar un número al azar. Algo similar a [Random.org](http://www.random.org/) pero de una forma un poco más vistosa. Así que decidí hacer mi propio generador de número random con HTML5 y Javascript. <!--more-->
+Hace un tiempo tuve que hacer una especie de 'tombola' para seleccionar un número al azar. Algo similar a [Random.org](http://www.random.org/) pero de una forma un poco más vistosa. Así que decidí hacer mi propio generador de número random con HTML5 y Javascript. 
 
 Lo primero que haremos será descargar [jQuery](http://code.jquery.com/jquery-2.1.1.min.js "jQuery") (lo guardamos con Ctrl+S) y lo renombraremos a jQuery-min; ya con la librería pasaremos a crear nuestro 'tablero' con html e.g.
 

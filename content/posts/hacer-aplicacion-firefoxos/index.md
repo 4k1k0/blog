@@ -8,7 +8,7 @@ tags:
   - "html5"
 ---
 
-Hola, hoy les quiero enseñar lo sencillo que es hacer una aplicación para Firefox OS. El ejemplo es algo muy sencillo, pero servirá para comprender lo básico del desarrollo de aplicaciones web. <!--more-->Para empezar necesitaremos crear nuestra interfaz con HTML5 y CSS3 ya que la parte 'funcional' de nuestra aplicación será escrita con Javascript.
+Hola, hoy les quiero enseñar lo sencillo que es hacer una aplicación para Firefox OS. El ejemplo es algo muy sencillo, pero servirá para comprender lo básico del desarrollo de aplicaciones web. Para empezar necesitaremos crear nuestra interfaz con HTML5 y CSS3 ya que la parte 'funcional' de nuestra aplicación será escrita con Javascript.
 
 ```html
 <!DOCTYPE HTML>
