@@ -1,0 +1,17 @@
+[latestPosts]
+    other = 'Entradas recientes'
+    
+[readMore]
+    other = 'Leer más'
+
+[summary]
+    other = 'Contenidos'
+
+[estimatedReadingTime]
+    other = 'Tiempo estimado de lectura: %d minutos'
+
+[404_title]
+    other = 'Página no encontrada'
+
+[404_text]
+    other = "Contenido no encontrado"

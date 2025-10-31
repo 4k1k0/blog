@@ -2,10 +2,11 @@
 title: "Hacer una aplicación para Firefox OS"
 date: "2014-08-23"
 categories: 
-  - "firefox-os"
-  - "javascript"
+  - "programming"
 tags: 
   - "html5"
+  - "firefox-os"
+  - "javascript"
 ---
 
 Hola, hoy les quiero enseñar lo sencillo que es hacer una aplicación para Firefox OS. El ejemplo es algo muy sencillo, pero servirá para comprender lo básico del desarrollo de aplicaciones web. Para empezar necesitaremos crear nuestra interfaz con HTML5 y CSS3 ya que la parte 'funcional' de nuestra aplicación será escrita con Javascript.
@@ -242,5 +243,3 @@ Ahora tenemos que crear nuestro archivo manifest.webapp en él pondremos los dat
 Con nuestros archivos listos podemos instalar la aplicación en el emulador. Para esto tenemos que entrar a la opción Desarrollador>App Manager o bien introducir about:app-manager en la barra de navegación. Primero tenemos que instalar el emulador haciendo click en el botón Iniciar Emulador, lo que nos indicará que no tenemos ninguno instalado y nos dará la opción de instalar alguno en sus distintas versiones de desarrollo. Ahora instalamos la aplicación escogiendo la opción de Aplicación empaquetada, elegimos su carpeta y listo.
 
 ![App Manager](images/x2iWA9u.png) App Manager
-
-[youtube https://www.youtube.com/watch?v=cRycHFodzJg&w=960&h=720]

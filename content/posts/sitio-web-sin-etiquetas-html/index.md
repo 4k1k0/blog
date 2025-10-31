@@ -1,9 +1,10 @@
 ---
 title: "Sitio web sin etiquetas html"
 date: "2014-09-10"
+categories:
+  - "programming"
 tags: 
   - "css"
-  - "html"
   - "html5"
 coverImage: "captura-de-pantalla-090914-160318.png"
 ---

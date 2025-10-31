@@ -12,7 +12,9 @@ Cuando uno quiere quemar una imagen iso en su sistema operativo Linux e.g. Debia
 
 Abriremos nuestra terminal y escribiremos
 
+```shell
 sudo ls -l /dev/disk/by-id/\*usb\*
+```
 
 ![](images/EJtxO8d.png)
 
@@ -24,10 +26,14 @@ cd ~/Descargas
 
 Ahora sí podremos quemar la iso.
 
+```shell
 sudo dd if=nombreDeLaIso.iso of=/dev/elUsb bs=4M; sync
+```
 
 Por ejemplo: Si yo quisiera quemar la iso de Elementary OS podría renombrar mi archivo iso en el explorador de archivos a elementary.iso y con mi usb siendo sdf quedaría algo como:
 
+```shell
 sudo dd if=elementary.iso of=/dev/sdf bs=4M; sync
+```
 
 El proceso tarda un rato y cuando termine en la terminal saldrá algo como: **X bloques fueron copiados a SDF.** Y con estos 3 comandos ya tenemos nuestra usb lista para bootearse sin isntalar nada extra en nuestro sistema.

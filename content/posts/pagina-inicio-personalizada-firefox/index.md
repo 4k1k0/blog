@@ -2,10 +2,10 @@
 title: "Página de inicio personalizada en Firefox"
 date: "2014-08-21"
 categories: 
-  - "personalizacion"
+  - "ricing"
 tags: 
   - "firefox"
-  - "html"
+  - "html5"
 coverImage: "inicio-2014-08-20-00-13-12.png"
 ---
 
@@ -114,8 +114,6 @@ li {
 
 Lo último que tenemos que hacer es entrar a about:config y buscar browser.newtab.url y browser.startup.homepage para cambiar su valor a la dirección en el disco duro de nuestro archivo HTML. Ahora ya tenemos una página de inicio y de nueva pestaña completamente personalizada.
 
-[![Pantalla de inicio Firefox](images/inicio-2014-08-20-00-13-12.png)](https://moelinux.files.wordpress.com/2014/08/inicio-2014-08-20-00-13-12.png) Pantalla de inicio Firefox
-
-[embed]https://www.youtube.com/watch?v=DW0SjIPwVOc\[embed]
+![Pantalla de inicio Firefox](images/inicio-2014-08-20-00-13-12.png)
 
 ¿Y cómo es la página de inicio de ustedes?

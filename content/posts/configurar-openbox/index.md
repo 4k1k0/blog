@@ -3,7 +3,7 @@ title: "Comenzar a configurar Openbox"
 date: "2014-09-09"
 categories: 
   - "linux"
-  - "personalizacion"
+  - "ricing"
 tags: 
   - "archlinux"
   - "openbox"
@@ -26,14 +26,27 @@ Al instalar Arch Linux con Openbox podrán notar que practicamente no tienen sof
 
 Tendremos que poner en el archivo autostart los programas que queremos que se inicien automáticamente e.g. Nitrogen, Volumeicon, Tint2, etc.
 
-> \## Wallpaper nitrogen --restore & ## Tint2 tint2 &t ## Network manager applet #(sleep 4s && nm-applet) & #Dropbox (sleep 3s && dropboxd) & ## Conky (sleep 3s && conky -q) & ## Volumeicon (sleep 5s && volumeicon) &
+```shell
+## Wallpaper
+nitrogen --restore &
+## Tint2
+tint2 &
+## Network manager applet
+(sleep 4s && nm-applet) & 
+#Dropbox
+(sleep 3s && dropboxd) & 
+## Conky
+(sleep 3s && conky -q) & 
+## Volumeicon
+(sleep 5s && volumeicon) &
+```
 
 Las oraciones que comienzan con un **#** son comentarios.
 
-[caption id="attachment_68" align="alignnone" width="562"][![Screenfetch](images/captura-de-pantalla-090914-151504.png)](https://moelinux.files.wordpress.com/2014/09/captura-de-pantalla-090914-151504.png) Screenfetch[/caption]
+![Screenfetch](images/captura-de-pantalla-090914-151504.png)
 
 Para comenzar a editar el menu de Openbox tendremos que fijarnos en el xml que es realmente sencillo, e.g.
 
-[caption id="" align="alignnone" width="589"]![Menu Openbox](images/KxEYihX.png) Menu Openbox\[/caption]
+![Menu Openbox](images/KxEYihX.png)
 
 Todo comienza dentro de `<menu id="root-menu" label="Openbox 3"></menu>` dentro de esto podremos nuestros programas, menus desplegables y separadores. Siguiendo la sintaxis de xml de abrir y cerrar etiquetas.

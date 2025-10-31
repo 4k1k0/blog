@@ -3,7 +3,7 @@ title: "Guía de i3 window manager"
 date: "2015-12-28"
 categories: 
   - "linux"
-  - "personalizacion"
+  - "ricing"
 tags: 
   - "archlinux"
   - "i3"

@@ -2,9 +2,10 @@
 title: "Generador random con jQuery"
 date: "2014-08-22"
 categories: 
-  - "javascript"
+  - "programming"
 tags: 
   - "html5"
+  - "javascript"
   - "jquery"
 coverImage: "captura-de-pantalla-200814-032135.png"
 ---
