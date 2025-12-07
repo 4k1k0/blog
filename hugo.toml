@@ -1,5 +1,5 @@
 baseURL = "https://blog.wako.lat/"
-theme = "LoveIt"
+theme = "FixIt"
 title = "./wako"
 languageCode = "en"
 languageName = "English"
@@ -15,20 +15,22 @@ summaryLength = 15
 [params]
   [params.author]
     name = "Rodrigo Patiño"
+    avatar = "https://i.imgur.com/XD71Uud.jpeg"
   [params.header]
     [params.header.title]
       name = "./wako"
   [params.home]
     [params.home.profile]
+      enable = true
       avatarURL = "https://i.imgur.com/XD71Uud.jpeg"
   [params.page]
     [params.page.share]
       enable = false
   [params.social]
-    Bluesky = "https://bsky.app/profile/wako.bsky.social"
-    Mastodon = "https://mstdn.social/@wako"
-    Devto = "https://dev.to/4k1k0"
-    Github = "https://github.com/4k1k0"
+    Bluesky = "wako.bsky.social"
+    Mastodon = "@wako@mstdn.social"
+    Devto = "4k1k0"
+    Github = "4k1k0"
 
 # Menu config
 [menu]
@@ -68,7 +70,7 @@ summaryLength = 15
     lineNoStart = 1
     lineNos = false
     lineNumbersInTable = false
-    noClasses = false
+    noClasses = true
     noHl = false
     style = "gruvbox"
     tabWidth = 2
