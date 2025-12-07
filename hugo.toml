@@ -13,6 +13,7 @@ summaryLength = 15
   pagerSize = 5
 
 [params]
+  defaultTheme = "dark"
   [params.author]
     name = "Rodrigo Patiño"
     avatar = "https://i.imgur.com/XD71Uud.jpeg"
