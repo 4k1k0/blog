@@ -7,12 +7,4 @@ Hello, I'm `Rodrigo Patiño` - net artist, software developer and mostly a human
 
 I code, setup Linux servers and deploy software to the web.
 
-I work mostly with Go and Node.js. I used to code in PHP 😳 and I know a little bit of Rust, Elixir and C++ (along with other programming languages)....
-
-
-alv
-alv
-alv
-alv
-alv
-alv
+I work mostly with Go and Node.js. I used to code in PHP 😳 and I know a little bit of Rust, Elixir and C++ (along with other programming languages).
