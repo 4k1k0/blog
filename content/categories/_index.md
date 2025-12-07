@@ -1,8 +1,7 @@
 ---
-title: "Categories"
+title: "categories"
 draft: false
 type: taxonomies
 layout: "home"
 ---
 
-Our Categories Collection
