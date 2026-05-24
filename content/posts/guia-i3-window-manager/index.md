@@ -24,7 +24,7 @@ exec i3
 
 Si se tiene otro entorno indicado se tendrá que comentar con un #
 
-![i3](images/rCePD94.png)
+![i3](images/rCePD94.png "i3")
 
 Una vez iniciado i3 se podrán ejecutar los programas presionando la tecla Super (Windows) + d, lo que lanzará el programa dmenu. Para editar los archivos de configuración de i3 se tendrá que ejecutar un editor de texto desde dmenu.
 

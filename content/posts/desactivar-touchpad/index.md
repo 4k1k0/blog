@@ -20,7 +20,7 @@ $ xinput list
 
 Esto nos mostrará una lista de dispositivos, en los cuales tendremos que localizar el touchpad.
 
-[![xinput list](images/screenshot-260515-214226.png)](https://moelinux.files.wordpress.com/2015/05/screenshot-260515-214226.png)
+![xinput list](images/screenshot-260515-214226.png "xinput list")
 
 En mi caso mi touchpad tiene el id 12, número que necesito para desactivarlo mediante el siguiente comando:
 

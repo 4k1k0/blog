@@ -123,6 +123,6 @@ $(document).ready(function () {
 });
 ```
 
-[![Generador random](images/captura-de-pantalla-200814-032135.png)](https://moelinux.files.wordpress.com/2014/08/captura-de-pantalla-200814-032135.png) Generador random
+![Generador random](images/captura-de-pantalla-200814-032135.png "Generador random")
 
 Es un script muy simple, pero con esto podremos tener un generador random un poco más estético y personal.

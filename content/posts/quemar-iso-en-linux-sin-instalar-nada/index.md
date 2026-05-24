@@ -16,13 +16,15 @@ Abriremos nuestra terminal y escribiremos
 sudo ls -l /dev/disk/by-id/\*usb\*
 ```
 
-![](images/EJtxO8d.png)
+![sudo ls](images/EJtxO8d.png "list usb devices")
 
 En mi caso la usb es la sdf **(Es importante ignorar el número e.g. sdf1).** Ahora tenemos que transladarnos a la carpeta donde tenemos nuestra iso e.g. Descargas
 
+```shell
 cd ~/Descargas
+```
 
-![](images/NihpyKx.png)
+![sudo ls](images/NihpyKx.png "list usb devices")
 
 Ahora sí podremos quemar la iso.
 
