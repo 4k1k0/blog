@@ -24,6 +24,8 @@ summaryLength = 15
     [params.home.profile]
       enable = true
       avatarURL = "https://i.imgur.com/XD71Uud.jpeg"
+    [params.home.posts]
+      enable = false
   [params.page]
     [params.page.share]
       enable = false
