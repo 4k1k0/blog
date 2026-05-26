@@ -242,4 +242,4 @@ Ahora tenemos que crear nuestro archivo manifest.webapp en él pondremos los dat
 
 Con nuestros archivos listos podemos instalar la aplicación en el emulador. Para esto tenemos que entrar a la opción Desarrollador>App Manager o bien introducir about:app-manager en la barra de navegación. Primero tenemos que instalar el emulador haciendo click en el botón Iniciar Emulador, lo que nos indicará que no tenemos ninguno instalado y nos dará la opción de instalar alguno en sus distintas versiones de desarrollo. Ahora instalamos la aplicación escogiendo la opción de Aplicación empaquetada, elegimos su carpeta y listo.
 
-![App Manager](images/x2iWA9u.png) App Manager
+![App Manager](images/x2iWA9u.png "Firefox OS App Manager")

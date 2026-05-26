@@ -12,7 +12,7 @@ tags:
 coverImage: "screenshot-290415-221614.png"
 ---
 
-[![ncmpcpp](images/screenshot-290415-221614.png)](https://moelinux.files.wordpress.com/2015/04/screenshot-290415-221614.png) ncmpcpp
+![ncmpcpp](images/screenshot-290415-221614.png "ncmpcpp")
 
 Esto les servirá para instalar y configurar de forma local mpd (music player daemon) y ncmpcpp, el cual es un cliente de terminal para mpd.
 
@@ -141,4 +141,4 @@ visualizer_in_stereo                 = yes"
 
 Dentro de este archivo se encuentra la configuración de los colores y estructura del cliente. Pueden encontrar más archivos de configuración de ncmpcpp en [dotshare](http://dotshare.it). Esta misma configuración les servirá otro cliente de mpd, como Sonata.
 
-[![Sonata](images/screenshot-290415-222117.png)](https://moelinux.files.wordpress.com/2015/04/screenshot-290415-222117.png) Sonata
+![Sonata](images/screenshot-290415-222117.png "sonata")

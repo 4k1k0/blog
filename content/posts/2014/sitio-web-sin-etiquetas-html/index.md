@@ -39,4 +39,4 @@ body:after{
 }
 ```
 
-[![Sitio web sin etiquetas](images/captura-de-pantalla-090914-160318.png)](https://moelinux.files.wordpress.com/2014/09/captura-de-pantalla-090914-160318.png) Sitio web sin etiquetas
+![Sitio web sin etiquetas](images/captura-de-pantalla-090914-160318.png "no tags")

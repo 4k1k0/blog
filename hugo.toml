@@ -1,5 +1,8 @@
+[module]
+[[module.imports]]
+path = "github.com/hugo-fixit/FixIt"
+
 baseURL = "https://blog.wako.lat/"
-theme = "FixIt"
 title = "./wako"
 languageCode = "en"
 languageName = "English"

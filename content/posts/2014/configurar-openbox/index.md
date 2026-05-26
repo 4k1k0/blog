@@ -43,10 +43,10 @@ tint2 &
 
 Las oraciones que comienzan con un **#** son comentarios.
 
-![Screenfetch](images/captura-de-pantalla-090914-151504.png)
+![Screenfetch](images/captura-de-pantalla-090914-151504.png "screenfetch")
 
 Para comenzar a editar el menu de Openbox tendremos que fijarnos en el xml que es realmente sencillo, e.g.
 
-![Menu Openbox](images/KxEYihX.png)
+![Menu Openbox](images/KxEYihX.png "openbox")
 
 Todo comienza dentro de `<menu id="root-menu" label="Openbox 3"></menu>` dentro de esto podremos nuestros programas, menus desplegables y separadores. Siguiendo la sintaxis de xml de abrir y cerrar etiquetas.
