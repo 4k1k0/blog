@@ -66,23 +66,19 @@ flowchart LR
     Image-->Disk[Save]
 ```
 
-A hash is <content...>. If we pass the string `wako` for a hash function like [md5](https://www.md5hashgenerator.com/) we get the result:
+A hash is the transformation of a input to a fixed length output. If we pass the string `wako` for a hash function like [md5](https://www.md5hashgenerator.com/) we get the result:
 
 ```shell
 b938719549150aafed74a90a0aa5ef27
 ```
 
-This happens because *md5* algorithm is determinstic and always returns a list of 16 hexadecimal numbers for the same input.
+This happens because the *md5* algorithm is determinstic and always returns a 128-bit hash value, which is a list of 16 numbers between 0 and 255 for the same input.
 
 
-With the [md5](https://crates.io/crates/md5) package.
+We can use the [md5](https://crates.io/crates/md5) crate to get the `md5` value of our input. This crate returns the information as a list of numbers in decimal format.
 
 ```rust
-md5::compute("wako").0;
-```
-
-```shell
-18556113149732110175237116169101016523939
+md5::compute("wako").0; // 18556113149732110175237116169101016523939
 ```
 
 | decimal | hex |
@@ -393,6 +389,10 @@ pub fn save(&self) -> Result<(), image::ImageError> {
     self.image.save(&self.filename)
 }
 ```
+
+## Final thoughs
+
+Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem 
 
 ## References
 
