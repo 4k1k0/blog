@@ -37,11 +37,11 @@ repost:
 
 ## Description
 
-This project aims to show how to implement an algorithm to create an *identicon* using Rust. Some common usages for this kind of images can be found on [Github](https://github.com) or [Grafana](https://grafana.com) where they use them to generate a profile picture for users who haven't upload a profile picture. You can find a collection of different projects and libraries to create them [here](https://github.com/drhus/awesome-identicons).
+This project aims to show how to implement an algorithm to create an *identicon* using Rust. Some common usages for this kind of images can be found on [Github](https://github.com) or [Grafana](https://grafana.com) where they use them to generate a profile picture for users who haven't upload a profile picture yet. You can find a collection of different projects and libraries to create them [here](https://github.com/drhus/awesome-identicons).
 
 As the definition says an *identicon* represents a hash value. That means that this process is kind of determinstic, and I say kind of, because since we are creating an image we depend on external states like memory, file system, space disk, etc. But the algorithm that generates the information that we are passing to the image creation is determinstic.
 
-For example if we use the word `wako` in our algorithm, it's going to produce the same information every time. That information is passed to a function that creates an image and save it in disk.
+For example if we use the word `wako` in our algorithm, it's going to produce the same information every time. That information is passed into a function that creates an image and save it in disk.
 
 ![identicon example](images/identicon-wako.png "Picture 1.1: 'wako' represented as an identicon.")
 
@@ -141,12 +141,12 @@ First we need to create a groups of 3 elements from that list. Since the origina
 
 ```rust
 fn split(hex: [u8; 16]) -> [[u8; 3]; 5] {
-    let mut result = [[0u8; 3]; 5];
-    for (i, chunk) in hex.chunks_exact(3).take(5).enumerate() {
-        result[i].copy_from_slice(chunk);
-    }
-
-    result
+    hex.chunks_exact(3)
+        .take(5)
+        .map(|chunk| chunk.try_into().unwrap())
+        .collect::<Vec<_>>()
+        .try_into()
+        .unwrap()
 }
 ```
 
@@ -209,13 +209,7 @@ Next we need to flat the groups into a single list.
 
 ```rust
 fn list_flaten(rows: [[u8; 5]; 5]) -> [u8; 25] {
-    let mut res = [0u8; 25];
-    let flat_iter = rows.iter().flatten();
-    for (i, &byte) in flat_iter.enumerate() {
-        res[i] = byte;
-    }
-
-    res
+    rows.concat().try_into().unwrap()
 }
 ```
 
